@@ -1,0 +1,39 @@
+
+.slide-container {
+    width: 300vw;
+    display: flex;
+    margin-top: 200px;
+    
+    
+   
+}
+
+.btn-primary {
+    position: absolute;
+    top: 65%;
+    right: 5%;;
+}
+
+.slide-box {
+    width: 100vw;
+}
+.slide-box img {
+    width: 100%;
+}
+
+.slide-to-right_1 {
+  transform: translateX(-100vw);
+    transition: all 1s;
+        
+}
+.slide-to-right_2 {
+  transform: translateX(-200vw);
+    transition: all 1s;
+        
+}
+
+.slide-to-right_3 {
+  transform: translateX(0vw);
+    transition: all 1s;
+        
+}
